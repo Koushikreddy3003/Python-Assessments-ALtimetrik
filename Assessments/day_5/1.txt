@@ -1,0 +1,1 @@
+Day_5 assessment is about generating the EDA report using pandas, numpy, matplotlib and seaborn.
