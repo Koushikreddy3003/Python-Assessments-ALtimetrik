@@ -1,0 +1,2 @@
+day_3 assessment is about generating student data program using add view delete update conditions
+and document about serialization.. and a small program using lambda and recursive function.
