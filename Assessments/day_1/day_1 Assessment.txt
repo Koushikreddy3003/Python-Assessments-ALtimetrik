@@ -1,0 +1,65 @@
+1. Procedural Programming in Python
+
+>> Definition: A linear, step-by-step style focused on procedures (functions).
+
+
+>>Top-down approach: Code executes from top to bottom, organizing logic into reusable procedures.
+
+>>State is global or passed explicitly: Variables are often global or passed manually between functions.
+
+>>Good for simple scripts: Best suited for smaller programs where abstraction isn't necessary.
+
+>>Uses built-in functions and modules: E.g., using math.sqrt() directly.
+
+Example:
+	def calculate_area(length, width):
+    		return length * width
+
+	area = calculate_area(5, 3)
+-----------------------------------------------------------------------------------------------------------
+
+2. Functional Programming in Python
+
+>> Definition: A declarative style focused on immutability and pure functions.
+
+
+>> Pure functions: No side effects (same input → same output).
+
+>> Immutability: Avoids changing data; prefers returning new data.
+
+>> Higher-order functions: Functions that take or return functions (e.g., map, filter, reduce).
+
+>> First-class functions: Functions are treated as values/objects.
+
+>> Built-in support: Python supports lambda, map(), filter(), functools, etc.
+
+-----------------------------------------------------------------------------------------------------
+
+3. Object-Oriented Programming (OOP) in Python
+
+>> Definition: Organizes code into reusable objects encapsulating data and behavior.
+
+>> Encapsulation: Bundles data and functions into objects.
+
+>> Inheritance: Allows creation of child classes from parent classes.
+
+>> Polymorphism: Same interface, different behavior (e.g., method overriding).
+
+>> Modularity and reuse: Makes code more maintainable and scalable.
+
+>> Magic methods & dunder methods: (__init__, __str__, etc.) give Python OOP flexibility.
+
+-----------------------------------------------------------------------------------------------------------
+Comparison over some factors.
+
+-------------------------------------------------------------------------------------------------------
+| Feature           | Procedural        | Functional                     | OOP                       |
+| ----------------- | ----------------- | ------------------------------ | ------------------------- |
+| Design Focus      | Sequence of steps | Pure functions & immutability  | Objects & classes         |
+| State Handling    | Global or local   | Stateless, immutable           | Encapsulated in objects   |
+| Reusability       | Functions         | Functions as data              | Inheritance, polymorphism |
+| Abstraction Level | Low to Medium     | Medium to High                 | High                      |
+| Best Use Cases    | Simple scripts    | Data transformation, pipelines | Large systems, GUIs       |
+|                   |                   |                                |                           |
+-------------------------------------------------------------------------------------------------------
+
