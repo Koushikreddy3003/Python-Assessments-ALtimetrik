@@ -1,0 +1,18 @@
+Serialization
+
+definition: Serialization means converting data (like a Python object) into a format that can be saved to a 
+	    file or sent over the internet, and then later restored back (deserialization) to its original form.
+
+example: 
+
+-> Packing your data into a box (serialization)
+
+-> Sending or saving the box
+
+-> Unpacking it later when you need it again (deserialization)
+
+--------------------------------------------------------------------------------------------------------
+>> Serialization = turn object -> storable format
+
+>> Deserialization = turn stored data -> original object
+
