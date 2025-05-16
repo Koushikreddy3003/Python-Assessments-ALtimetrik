@@ -1,0 +1,72 @@
+Standard Modules:
+
+>> A standard module in Python refers to any Python module that is included in the Python  
+   Standard Library, meaning it is bundled with Python itself.
+>> They provide built-in functionalities that help with various tasks, from working with
+   files to performing mathematical calculations, networking, and much more. 
+>> These modules are automatically available for use once you install Python, and you can
+   easily import them into your program.
+------------------------------------------------------------------------------------------------
+
+Key Characteristics of Standard Python Modules:
+
+>> Pre-installed: Standard modules are part of the Python distribution, so you don’t need to   
+   install them separately.
+
+>> Wide Range of Functions: These modules cover diverse functionalities like handling dates
+   and times, working with regular expressions, dealing with data formats (JSON, CSV), and
+   interacting with the operating system.
+
+>> Easily Accessible: You simply import the module and use its functions without the need
+   for complex setup.
+-------------------------------------------------------------------------------------------------
+
+>> List of Standard Modules
+
+	1. os
+	2. random
+	3. math
+	4. datetime
+	5. json
+	6. csv
+	7. re
+--------------------------------------------------------------------------------------------------
+>> Common Uses of Standard Python Modules:
+	--> File handling (e.g., os, csv)
+	--> Mathematics and statistics (e.g., math, statistics)
+	--> Text processing (e.g., re, string)
+	--> Date and time management (e.g., datetime)
+	--> Networking and internet (e.g., socket, urllib)
+	--> Data serialization (e.g., json, pickle)
+
+--------------------------------------------------------------------------------------------------
+>> Most used Standard Modules of Python...,
+
+1. OS -- Provides functions to interact with the operating system, such as file manipulation, 
+	 environment variables, and process management.
+	 -->example: import os
+	    --> file paths -- (os.path),
+	    --> creating directory -- (os.mkdir()),
+	    --> remove files -- (os.remove())
+----------------------------------------------------------------------------------------------------
+2. math -- Provides mathematical functions like trigonometric functions, logarithms, and constants
+	   such as pi.
+	   --> example: import math
+		--> square root -- (math.sqrt())
+		--> calculate factorial -- (math.factorial())
+		--> The constant pi -- (math.pi)
+
+----------------------------------------------------------------------------------------------------
+3. Random -- Implements pseudo-random number generators and allows random selection and shuffling.
+	     --> Example: import random
+		--> Generates a random integer -- (random.randint())
+		--> Picks a random element from a list -- (random.choice())
+		--> Shuffles a list in place -- (random.shuffle())
+
+----------------------------------------------------------------------------------------------------
+4. datetime --  Provides classes for manipulating dates and times.
+		--> example: import datetime
+			--> get the current date and time --  (datetime.datetime.now())
+			--> represent time intervals -- (datetime.timedelta())
+			--> manipulate dates (without time) -- (datetime.date())
+----------------------------------------------------------------------------------------------------
